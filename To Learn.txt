@@ -1,0 +1,21 @@
+Week 3
+1. TYPESCRIPT
+
+2. CLI-Command Line Interface
+
+3. fs
+Synchronous Example: //unlinkSync helps to remove the file.
+import { unlinkSync } from 'node:fs';
+
+try {
+  unlinkSync('/tmp/hello');
+  console.log('successfully deleted /tmp/hello');
+} catch (err) {
+  // handle the error
+}
+
+4. path
+The node:path module provides utilities for working with file and directory paths. It can be accessed using:
+const path = require('node:path'); 
+
+5. process
