@@ -19,3 +19,7 @@ The node:path module provides utilities for working with file and directory path
 const path = require('node:path'); 
 
 5. process
+
+
+2024/09/17
+1. Ressursive
